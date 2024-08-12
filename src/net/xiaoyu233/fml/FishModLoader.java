@@ -23,7 +23,7 @@ import net.xiaoyu233.fml.config.ConfigRegistry;
 import net.xiaoyu233.fml.config.Configs;
 import net.xiaoyu233.fml.config.InjectionConfig;
 import net.xiaoyu233.fml.relaunch.Launch;
-import net.xiaoyu233.fml.reload.transform.MinecraftServerTrans;
+import net.xiaoyu233.fml.reload.mixins.MinecraftMixin;
 import net.xiaoyu233.fml.util.Constants;
 import net.xiaoyu233.fml.util.RemoteModInfo;
 import net.xiaoyu233.fml.util.UrlUtil;
@@ -356,7 +356,7 @@ public class FishModLoader{
    }
 
    public static void registerModloaderMixin(ClassLoader classLoader){
-      Mixins.registerConfiguration((InjectionConfig.Builder.of(MOD_ID, MinecraftServerTrans.class.getPackage(), MixinEnvironment.Phase.DEFAULT).plugin("com.chocohead.mm.Plugin").build().toConfig(classLoader, MixinService.getService(),MixinEnvironment.getCurrentEnvironment())));
+      Mixins.registerConfiguration((InjectionConfig.Builder.of(MOD_ID, MinecraftMixin.class.getPackage(), MixinEnvironment.Phase.DEFAULT).plugin("com.chocohead.mm.Plugin").build().toConfig(classLoader, MixinService.getService(),MixinEnvironment.getCurrentEnvironment())));
    }
 
    public static MixinEnvironment.Side getSide(){

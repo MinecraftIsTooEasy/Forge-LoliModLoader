@@ -31,6 +31,7 @@ public class CachedMappedJar {
         TinyRemapper.Builder builder = TinyRemapper.newRemapper()
                 .withMappings(provider)
                 .ignoreConflicts(true)
+                .fixPackageAccess(true)
                 .checkPackageAccess(true);
 //        if (!injections.isEmpty()){
 //            builder.extension(new InterfaceInjectionExtension(injections));

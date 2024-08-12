@@ -43,7 +43,8 @@ public class Launch {
       //Use parent to prevent preloading
       Path remappedGameJarPath;
       try {
-         IMappingProvider tinyMappingProvider = TinyUtils.createTinyMappingProvider(new BufferedReader(new InputStreamReader(Objects.requireNonNull(Launch.class.getResourceAsStream("/mappings.tiny")))), "official", "named");
+         IMappingProvider tinyMappingProvider = TinyUtils.createTinyMappingProvider
+                 (new BufferedReader(new InputStreamReader(Objects.requireNonNull(Launch.class.getResourceAsStream("/mappings.tiny")))), "official", "named");
          CachedMappedJar cachedMappedJar = new CachedMappedJar(gameJarPath, tinyMappingProvider, new File(minecraftHome));
          remappedGameJarPath = cachedMappedJar.ensureJarMapped();
          knotInterface.addCodeSource(remappedGameJarPath);

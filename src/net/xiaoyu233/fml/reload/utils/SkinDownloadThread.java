@@ -1,9 +1,9 @@
 package net.xiaoyu233.fml.reload.utils;
 
-import net.minecraft.Minecraft;
-import net.minecraft.ThreadDownloadImageData;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.ThreadDownloadImageData;
 import net.xiaoyu233.fml.relaunch.Launch;
-import net.xiaoyu233.fml.reload.transform.fix.skin.ThreadDownloadImageDataAccessor;
+import net.xiaoyu233.fml.reload.mixins.fix.skin.ThreadDownloadImageDataAccessor;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -32,7 +32,7 @@ public class SkinDownloadThread extends Thread {
                image = ((ThreadDownloadImageDataAccessor)this.texture).getImageBuffer().parseUserSkin(image);
             }
 
-            this.texture.setBufferedImage(image);
+            this.texture.getBufferedImage(image);
          }
       } catch (Exception var6) {
          if (var1 != null) {

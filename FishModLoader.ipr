@@ -471,10 +471,10 @@
     <list size="0" />
   </component>
   <component name="ArtifactManager">
-    <artifact type="jar" build-on-make="true" name="FishModLoader:jar">
+    <artifact type="jar" name="FishModLoader:jar">
       <output-path>F:/MITE Plus R5/.minecraft/libraries/net/xiaoyu233/fishmodloader/fishmodloader/v3.0.0</output-path>
       <root id="archive" name="FishModLoader-v3.0.0.jar">
-        <element id="module-output" name="FishModLoader" />
+        <element id="module-output" name="LoliModLoader" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/guava-28.0-jre.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/jsr305-3.0.2.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/failureaccess-1.0.1.jar" path-in-jar="/" />
@@ -492,15 +492,15 @@
       </root>
     </artifact>
     <artifact type="jar" build-on-make="true" name="FishModLoader:install">
-      <output-path>$PROJECT_DIR$/../FMLInstaller/src/net/xiaoyu233/fmlinstaller</output-path>
-      <root id="archive" name="FishModLoader.jar">
-        <element id="module-output" name="FishModLoader" />
+      <output-path>G:/Minecraft/MITE R196-modloader/.minecraft/libraries/net/xiaoyu233/fishmodloader/fishmodloader/v3.3.2</output-path>
+      <root id="archive" name="FishModLoader-v3.3.2.jar">
+        <element id="module-output" name="LoliModLoader" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/guava-28.0-jre.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/jsr305-3.0.2.jar" path-in-jar="/" />
-        <element id="extracted-dir" path="$PROJECT_DIR$/libs/failureaccess-1.0.1.jar" path-in-jar="/" />
-        <element id="extracted-dir" path="$PROJECT_DIR$/libs/log4j-api-2.11.2.jar" path-in-jar="/" />
-        <element id="extracted-dir" path="$PROJECT_DIR$/libs/log4j-core-2.11.2.jar" path-in-jar="/" />
-        <element id="extracted-dir" path="$PROJECT_DIR$/../tiny-remapper/build/libs/tiny-remapper-0.8.2+local.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/failureaccess-1.0.2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/log4j-api-2.23.1.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/log4j-core-2.23.1.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/tiny-remapper-0.10.4+local.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/org.ow2.sat4j.pb-2.3.6.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/org.ow2.sat4j.core-2.3.6.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/asm-commons-9.6.jar" path-in-jar="/" />
@@ -509,12 +509,13 @@
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/asm-util-9.6.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/asm-analysis-9.6.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/access-widener-2.1.0.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/mapping-io-0.5.0.jar" path-in-jar="/" />
       </root>
     </artifact>
-    <artifact type="jar" build-on-make="true" name="FishModLoader:server">
+    <artifact type="jar" name="FishModLoader:server">
       <output-path>$PROJECT_DIR$/../../[1.6.4] MITE_R196_PlusR5_HDS-Server</output-path>
       <root id="archive" name="FishModLoader-v3.2.2.jar">
-        <element id="module-output" name="FishModLoader" />
+        <element id="module-output" name="LoliModLoader" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/guava-28.0-jre.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/jsr305-3.0.2.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/failureaccess-1.0.1.jar" path-in-jar="/" />
@@ -643,6 +644,21 @@
       <cssText />
       <cssUriHistory />
     </CssSettings>
+  </component>
+  <component name="MaterialThemeProjectNewConfig">
+    <option name="metadata">
+      <MTProjectMetadataState>
+        <option name="migrated" value="true" />
+        <option name="pristineConfig" value="false" />
+        <option name="userId" value="35c00c77:18e17698db1:-8000" />
+        <option name="version" value="8.13.2" />
+      </MTProjectMetadataState>
+    </option>
+    <option name="titleBarState">
+      <MTProjectTitleBarConfigState>
+        <option name="overrideColor" value="false" />
+      </MTProjectTitleBarConfigState>
+    </option>
   </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="javax.annotation.Nullable" />
@@ -818,7 +834,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FishModLoader.iml" filepath="$PROJECT_DIR$/FishModLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoliModLoader.iml" filepath="$PROJECT_DIR$/LoliModLoader.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
@@ -867,12 +883,10 @@
   <component name="libraryTable">
     <library name="1.6.4-MITE">
       <CLASSES>
-        <root url="jar://F:/MITE Plus R5/.minecraft/.fml/remappedJars/1.6.4-MITE.jar-v2.0.0_FML.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/1.6.4-MITE.jar!/" />
       </CLASSES>
       <JAVADOC />
-      <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../MITE-ITEPlugin/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-ba34109dde/1.6.4-MITE-loom.mappings.1_6_4_MITE.layered+hash.1180385101-v2/minecraft-merged-ba34109dde-1.6.4-MITE-loom.mappings.1_6_4_MITE.layered+hash.1180385101-v2-sources.jar!/" />
-      </SOURCES>
+      <SOURCES />
     </library>
     <library name="access-widener-2.1.0">
       <CLASSES>
@@ -880,26 +894,6 @@
       </CLASSES>
       <JAVADOC />
       <SOURCES />
-    </library>
-    <library name="bin">
-      <CLASSES>
-        <root url="file://$PROJECT_DIR$/../FernFlower-master/out/production/classes" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES>
-        <root url="file://$PROJECT_DIR$/../FernFlower-master/src" />
-      </SOURCES>
-    </library>
-    <library name="classes">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/libs/guava-28.0-jre.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/libs/guava-28.0-jre-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$PROJECT_DIR$/libs/guava-28.0-jre-sources.jar!/" />
-      </SOURCES>
     </library>
     <library name="commons-lang3-3.13.0">
       <CLASSES>
@@ -915,22 +909,25 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="log4j-core-2.11.2">
+    <library name="guava-28.0-jre">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/libs/log4j-core-2.11.2.jar!/" />
-        <root url="jar://$PROJECT_DIR$/libs/log4j-api-2.11.2.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/guava-28.0-jre.jar!/" />
       </CLASSES>
-      <JAVADOC />
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/libs/guava-28.0-jre-javadoc.jar!/" />
+      </JAVADOC>
       <SOURCES />
     </library>
-    <library name="lwjgl-2.9.0">
+    <library name="libs">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/libs/lwjgl-2.9.0.jar!/" />
+        <root url="file://$PROJECT_DIR$/libs" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.ideaLibSources/lwjgl-2.9.0-sources.jar!/" />
+        <root url="file://$PROJECT_DIR$/libs" />
       </SOURCES>
+      <jarDirectory url="file://$PROJECT_DIR$/libs" recursive="false" />
+      <jarDirectory url="file://$PROJECT_DIR$/libs" recursive="false" type="SOURCES" />
     </library>
     <library name="org.ow2.asm:asm-commons:9.3" type="repository">
       <properties maven-id="org.ow2.asm:asm-commons:9.6" />
@@ -982,15 +979,6 @@
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/libs/org.ow2.sat4j.pb-2.3.6-sources.jar!/" />
         <root url="jar://$PROJECT_DIR$/libs/org.ow2.sat4j.core-2.3.6-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="tiny-remapper-0.8.2+local-fat">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../tiny-remapper/build/libs/tiny-remapper-0.8.2+local.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES>
-        <root url="jar://$PROJECT_DIR$/../tiny-remapper/build/libs/tiny-remapper-0.8.2+local-sources.jar!/" />
       </SOURCES>
     </library>
   </component>
