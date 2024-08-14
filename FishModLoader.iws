@@ -26,21 +26,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46b5f149-8df1-4fa7-8f8c-6cf5928e7b53" name="Default Changelist" comment="update version and read fabric.mod.json">
-      <change afterPath="$PROJECT_DIR$/libs/launchwrapper-1.8.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FishModLoader.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/FishModLoader.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FishModLoader.iws" beforeDir="false" afterPath="$PROJECT_DIR$/FishModLoader.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoliModLoader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LoliModLoader.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fishmodloader.accesswidener" beforeDir="false" afterPath="$PROJECT_DIR$/src/lolimodloader.accesswidener" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fishmodloader.mixin.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lolimodloader.mixin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/fabricmc/api/EnvType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/fabricmc/api/EnvType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/fabricmc/loader/impl/discovery/ArgumentModCandidateFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/fabricmc/loader/impl/discovery/ArgumentModCandidateFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/fabricmc/loader/impl/discovery/ClasspathModCandidateFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/fabricmc/loader/impl/discovery/ClasspathModCandidateFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/fabricmc/loader/impl/discovery/ModDiscoverer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/fabricmc/loader/impl/discovery/ModDiscoverer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/FishModLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/FishModLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/classloading/KnotClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/classloading/KnotClassLoader.java" afterDir="false" />
-    </list>
+    <list default="true" id="46b5f149-8df1-4fa7-8f8c-6cf5928e7b53" name="Default Changelist" comment="support classloader...." />
     <list id="40b664fe-9756-4d87-93a9-42981856d871" name="No Update" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -516,6 +502,7 @@
       <workItem from="1723638237193" duration="341000" />
       <workItem from="1723639491861" duration="503000" />
       <workItem from="1723640110144" duration="1188000" />
+      <workItem from="1723641345552" duration="774000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1586023485118</created>
@@ -843,7 +830,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723458720408</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="support classloader....">
+      <option name="closed" value="true" />
+      <created>1723643260262</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1723643260262</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -873,7 +868,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add mod duplication detect&#10;Make players can join in server &#10;Fix slaying's translation&#10;Fixed some connection problems" />
     <MESSAGE value="Fix bossbar entity crash" />
     <MESSAGE value="Log4j2 lookup vulnerability fix" />
     <MESSAGE value="Log all messages through log4j2&#10;Make configs can be reloaded on runtime&#10;New GUI config editor(Downward compatible)&#10;Fix fps limit problem&#10;Remove unnecessary class dumping" />
@@ -898,7 +892,8 @@
     <MESSAGE value="change mapping to forge" />
     <MESSAGE value="update version" />
     <MESSAGE value="update version and read fabric.mod.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="update version and read fabric.mod.json" />
+    <MESSAGE value="support classloader...." />
+    <option name="LAST_COMMIT_MESSAGE" value="support classloader...." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
