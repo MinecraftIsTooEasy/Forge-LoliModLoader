@@ -16,87 +16,31 @@
 
 package net.xiaoyu233.fml.classloading;
 
-import java.io.IOException;
-import java.io.InputStream;
+import net.minecraft.launchwrapper.LaunchClassLoader;
+
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.security.CodeSource;
-import java.security.SecureClassLoader;
-import java.util.Enumeration;
-import java.util.Objects;
 
 // class name referenced by string constant in net.fabricmc.loader.impl.util.LoaderUtil.verifyNotInTargetCl
-final class KnotClassLoader extends SecureClassLoader implements KnotClassDelegate.ClassLoaderAccess {
+public class KnotClassLoader extends LaunchClassLoader implements KnotClassDelegate.ClassLoaderAccess {
 	static {
 		registerAsParallelCapable();
 	}
 
-	private final DynamicURLClassLoader urlLoader;
+
 	private final ClassLoader originalLoader;
 	private final KnotClassDelegate<KnotClassLoader> delegate;
 
-	KnotClassLoader() {
-		super(new DynamicURLClassLoader(new URL[0]));
+	public KnotClassLoader() {
+		super(new URL[0]);
 		this.originalLoader = getClass().getClassLoader();
-		this.urlLoader = (DynamicURLClassLoader) getParent();
 		this.delegate = new KnotClassDelegate<>(this, originalLoader);
-	}
+    }
+
 
 	KnotClassDelegate<?> getDelegate() {
 		return delegate;
-	}
-
-	@Override
-	public URL getResource(String name) {
-		Objects.requireNonNull(name);
-
-		URL url = urlLoader.getResource(name);
-
-		if (url == null) {
-			url = originalLoader.getResource(name);
-		}
-
-		return url;
-	}
-
-	@Override
-	public URL findResource(String name) {
-		Objects.requireNonNull(name);
-
-		return urlLoader.findResource(name);
-	}
-
-	@Override
-	public Enumeration<URL> findResources(String name) throws IOException {
-		Objects.requireNonNull(name);
-
-		return urlLoader.findResources(name);
-	}
-
-	@Override
-	public InputStream getResourceAsStream(String name) {
-		Objects.requireNonNull(name);
-
-		InputStream inputStream = urlLoader.getResourceAsStream(name);
-
-		if (inputStream == null) {
-			inputStream = originalLoader.getResourceAsStream(name);
-		}
-
-		return inputStream;
-	}
-
-	@Override
-	public Enumeration<URL> getResources(String name) throws IOException {
-		Objects.requireNonNull(name);
-
-		final Enumeration<URL> resources = urlLoader.getResources(name);
-
-		if (!resources.hasMoreElements()) {
-			return originalLoader.getResources(name);
-		}
-
-		return resources;
 	}
 
 	@Override
@@ -105,23 +49,23 @@ final class KnotClassLoader extends SecureClassLoader implements KnotClassDelega
 	}
 
 	@Override
-	protected Class<?> findClass(String name) throws ClassNotFoundException {
+	public Class<?> findClass(String name) throws ClassNotFoundException {
 		return delegate.tryLoadClass(name, false);
 	}
 
 	@Override
 	public void addUrlFwd(URL url) {
-		urlLoader.addURL(url);
+		this.addURL(url);
 	}
 
 	@Override
 	public URL findResourceFwd(String name) {
-		return urlLoader.findResource(name);
+		return this.findResource(name);
 	}
 
 	@Override
 	public Package getPackageFwd(String name) {
-		return super.getPackage(name);
+		return super.getDefinedPackage(name);
 	}
 
 	@Override

@@ -33,5 +33,6 @@
     <orderEntry type="library" name="lwjgl-2.9.0" level="project" />
     <orderEntry type="library" name="libs" level="project" />
     <orderEntry type="library" name="1.6.4-MITE" level="project" />
+    <orderEntry type="library" name="guava-28.0-jre" level="project" />
   </component>
 </module>

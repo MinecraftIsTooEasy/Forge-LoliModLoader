@@ -356,14 +356,8 @@ public final class ModDiscoverer {
 		}
 
 		private ModCandidate computeDir(Path path) throws IOException, ParseMetadataException {
-			Path modJson;
-			if (!Files.exists(path.resolve("loli.mod.json"))) {
-				modJson = path.resolve("loli.mod.json");
-			} else if (!Files.exists(path.resolve("fabric.mod.json"))) {
-				modJson = path.resolve("fabric.mod.json");
-			} else {
-				return null;
-			}
+			Path modJson = path.resolve("loli.mod.json");
+			if (!Files.exists(modJson)) return null;
 
 			LoaderModMetadata metadata;
 
@@ -376,14 +370,8 @@ public final class ModDiscoverer {
 
 		private ModCandidate computeJarFile(Path path) throws IOException, ParseMetadataException {
 			try (ZipFile zf = new ZipFile(path.toFile())) {
-				ZipEntry entry;
-				if (zf.getEntry("loli.mod.json") != null) {
-					entry = zf.getEntry("loli.mod.json");
-				} else if (zf.getEntry("fabric.mod.jar") != null) {
-					entry = zf.getEntry("fabric.mod.json");
-				} else {
-					return null;
-				}
+				ZipEntry entry = zf.getEntry("loli.mod.json");
+				if (entry == null) return null;
 
 				LoaderModMetadata metadata;
 
@@ -456,7 +444,7 @@ public final class ModDiscoverer {
 
 			try (ZipInputStream zis = new ZipInputStream(is)) {
 				while ((entry = zis.getNextEntry()) != null) {
-					if (entry.getName().equals("fml.mod.json")) {
+					if (entry.getName().equals("loli.mod.json")) {
 						metadata = parseMetadata(zis, localPath);
 						break;
 					}

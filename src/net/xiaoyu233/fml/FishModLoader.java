@@ -415,7 +415,7 @@ public class FishModLoader{
                       .getLocation())),
                       new BuiltinModMetadata.Builder(MOD_ID, VERSION).setEnvironment(ModEnvironment.UNIVERSAL)
                               .setName(MOD_ID)
-                              .accesswidener("fishmodloader.accesswidener")
+                              .accesswidener("lolimodloader.accesswidener")
                               .build()),
               new ModCandidate.BuiltinMod(Collections.singletonList(gameJarPath), new BuiltinModMetadata.Builder("mite", "1.6.4").setEnvironment(ModEnvironment.UNIVERSAL)
                       .setName("1.6.4-MITE")

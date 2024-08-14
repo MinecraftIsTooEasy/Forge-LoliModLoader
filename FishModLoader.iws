@@ -26,183 +26,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46b5f149-8df1-4fa7-8f8c-6cf5928e7b53" name="Default Changelist" comment="Update to 3.3.1">
+    <list default="true" id="46b5f149-8df1-4fa7-8f8c-6cf5928e7b53" name="Default Changelist" comment="update version and read fabric.mod.json">
+      <change afterPath="$PROJECT_DIR$/libs/launchwrapper-1.8.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FishModLoader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LoliModLoader.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FishModLoader.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/FishModLoader.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FishModLoader.iws" beforeDir="false" afterPath="$PROJECT_DIR$/FishModLoader.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mappings.tiny" beforeDir="false" afterPath="$PROJECT_DIR$/src/mappings.tiny" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/migrate.tiny" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoliModLoader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LoliModLoader.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fishmodloader.accesswidener" beforeDir="false" afterPath="$PROJECT_DIR$/src/lolimodloader.accesswidener" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fishmodloader.mixin.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lolimodloader.mixin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/fabricmc/api/EnvType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/fabricmc/api/EnvType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/fabricmc/loader/impl/discovery/ArgumentModCandidateFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/fabricmc/loader/impl/discovery/ArgumentModCandidateFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/fabricmc/loader/impl/discovery/ClasspathModCandidateFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/fabricmc/loader/impl/discovery/ClasspathModCandidateFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/fabricmc/loader/impl/discovery/ModDiscoverer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/fabricmc/loader/impl/discovery/ModDiscoverer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/FishModLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/FishModLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/INamespaced.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/block/AnvilBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/block/IBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/block/StrongBoxBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/entity/IEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/item/AxeItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/item/BattleAxeItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/item/CustomMaterial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/item/DaggerItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/item/IItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/item/ModItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/item/NuggetItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/item/PickaxeItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/item/ShovelItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/item/SwordItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/item/WarHammerItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/api/item/recipe/RecipesArgs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/mapping/CachedMappedJar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/mapping/CachedMappedJar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/relaunch/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/relaunch/Launch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/AchievementRegistryEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/BlockRegistryEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/CommandRegisterEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/EnchantmentRegistryEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/EntityRegisterEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/EntityRendererRegistryEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/HandleChatCommandEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/ItemRegistryEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/LanguageResourceReloadEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/MITEEvents.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/PacketRegisterEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/PlayerLoggedInEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/RecipeModifyEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/RecipeRegistryEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/SmeltRecipeRegistryEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/SoundsRegisterEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/TileEntityRegisterEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/TileEntityRendererRegisterEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/recipe/RecipeModifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/recipe/RecipeType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/recipe/RemoveRecipeModifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/recipe/ShapedRecipeModifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/event/recipe/ShapelessRecipeModifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/CommandHandlerTrans.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/LanguageLoaderTrans.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/LocaleLanguageTrans.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/MinecraftServerTrans.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/MinecraftTrans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/MinecraftMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/StringTranslateAccessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/api/ItemToolMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/client/ClientPlayerMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/client/ClientPlayerMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/client/DefaultResourcePackMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/client/DefaultResourcePackMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/client/MainMenuMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/client/MainMenuMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/client/RenderFix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/client/RenderFix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/client/SimpleResourceManagerMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/client/TileEntityRendererMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/entrypoint/ClientEntrypointMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/entrypoint/ClientEntrypointMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/entrypoint/ServerEntrypointMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/entrypoint/ServerEntrypointMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumActionMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumActionMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumArtMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumArtMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumBlockBreakReasonMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumBlockBreakReasonMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumBlockFXMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumBlockFXMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumBlockOperationMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumBlockOperationMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumChatFormattingMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumChatFormattingMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumChestTypeMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumChestTypeMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumCommandMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumCommandMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumConsciousStateMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumConsciousStateMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumCreatureAttributeMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumCreatureAttributeMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumCreatureTypeMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumCreatureTypeMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumDirectionMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumDirectionMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumDoorMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumDoorMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumEnchantmentTypeMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumEnchantmentTypeMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumEntityFXMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumEntityFXMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumEntityReachContextMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumEntityReachContextMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumEntitySizeMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumEntitySizeMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumEntityStateMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumEntityStateMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumEquipmentMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumEquipmentMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumFaceMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumFaceMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumFacingMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumFacingMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumGameTypeMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumGameTypeMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumInsulinResistanceLevelMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumInsulinResistanceLevelMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumItemInUseActionMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumItemInUseActionMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumLevelBonusMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumLevelBonusMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumMaterialHardnessMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumMaterialHardnessMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumMobTypeMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumMobTypeMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumMovingObjectTypeMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumMovingObjectTypeMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumOSMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumOSMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumOptionsMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumOptionsMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumParticleMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumParticleMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumQualityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumQualityMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumRarityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumRarityMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumSideMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumSideMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumSignalMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumSignalMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumSkyBlockMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumSkyBlockMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumSpecialSplashMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumSpecialSplashMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumStatusMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumStatusMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumToolMaterialMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumToolMaterialMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/enum_extend/EnumTournamentTypeMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/enum_extend/EnumTournamentTypeMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/AllowedCharFix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/AllowedCharFix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/ChatFix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/ChatFix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/EnchantmentPiercingTranslationFix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/EnchantmentPiercingTranslationFix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/FixAnvilStackCrash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/FixAnvilStackCrash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/FixBoundingBoxCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/FixBoundingBoxCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/FixCrash2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/FixCrash2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/FixMinecart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/FixMinecart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/FixServerCrash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/FixServerCrash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/FpsUnlimit2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/FpsUnlimit2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/FpsUnlimited.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/FpsUnlimited.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/RedstoneTorchFix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/RedstoneTorchFix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/WeaponDamageTranslationFix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/WeaponDamageTranslationFix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/fix_creative_inv/ContainerCreativeMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/fix_creative_inv/ContainerCreativeMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/fix_creative_inv/GuiCreativeMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/fix_creative_inv/GuiCreativeMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/fix_creative_inv/SlotCreativeInvMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/fix_creative_inv/SlotCreativeInvMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/fix_minecart/EntityMinecartChestTrans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/fix_minecart/EntityMinecartChestTrans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/fix_minecart/EntityMinecartContainerMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/fix_minecart/EntityMinecartContainerMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/fix_recipe/ItemMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/fix_recipe/ItemMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/fix_recipe/RecipeHelperMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/fix_recipe/RecipeHelperMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/skin/SkinFixTransform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/skin/SkinFixTransform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/fix/skin/ThreadDownloadImageDataAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/fix/skin/ThreadDownloadImageDataAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/BipedRendererMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/BipedRendererMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/BlockFireMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/BlockFireMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/BlockMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/BlockMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/ChunkMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/ChunkMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/ChunkRegionLoaderMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/ChunkRegionLoaderMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/ChunkSectionMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/ChunkSectionMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/EndermanMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/EndermanMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/EntityItemMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/EntityItemMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/ItemBlockMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/ItemMapMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/ItemMapMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/ItemMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/ItemStackMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/MinecraftMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/NetClientHandlerMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/NetClientHandlerMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/PacketMultiBlockChangeMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/PacketMultiBlockChangeMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/PlayerRendererMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/PlayerRendererMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/PotionMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/PotionMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/RecipeHelperMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/RecipeHelperMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/ReferenceFileWriterMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/SnowManRendererMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/SnowManRendererMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/StatisticMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/StatisticMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/WitchRendererMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/WitchRendererMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/id_extend/WorldMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/mixins/id_extend/WorldMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/network/Packet2ClientProtocolTrans.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/network/PacketTrans.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/network/PendingConnectionTransform.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/registry/EnchantmentRegisterMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/registry/EntityRegistryMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/registry/EntityRendererRegisterMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/registry/ItemBlockRecipeRegistryMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/registry/ServerCommandManagerMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/registry/SoundsRegistryMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/registry/TileEntityRegistryMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/save_version/WorldInfoMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/util/BlockAccessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/util/BlockMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/util/CraftingManagerInvoker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/util/DebugAttackTrans.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/util/EntityHumanTrans.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/util/EntityLivestockAccessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/util/EntityMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/util/EnumCommandAccessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/util/ItemMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/util/LogTransform.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/util/SkillAccessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/util/WorldAccessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/transform/util/WorldServerAccessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/utils/EntityUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/utils/IdUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/utils/SkinDownloadThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/utils/SkinDownloadThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/reload/utils/VersionCheckThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/xiaoyu233/fml/classloading/KnotClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/xiaoyu233/fml/classloading/KnotClassLoader.java" afterDir="false" />
     </list>
     <list id="40b664fe-9756-4d87-93a9-42981856d871" name="No Update" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -279,7 +116,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -293,47 +130,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Client (1).executor": "Run",
-    "Application.Client (1.4.2).executor": "Run",
-    "Application.Client.executor": "Run",
-    "Application.ModRemapper.executor": "Run",
-    "Application.Server (1).executor": "Run",
-    "Application.Server.executor": "Debug",
-    "Downloaded.Files.Path": "H:\\IDEAProjects\\FishModLoader\\libs",
-    "Downloaded.Files.Path.Enabled": "true",
-    "JAR Application.Unnamed (1).executor": "Run",
-    "JAR Application.Unnamed.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "H:/Java/LoliModLoader/libs/1.6.4-MITE.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.1515625",
-    "project.structure.side.proportion": "0.15668203",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.applicationServers",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Client (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client (1.4.2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ModRemapper.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Server (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Server.executor&quot;: &quot;Debug&quot;,
+    &quot;Downloaded.Files.Path&quot;: &quot;H:\\IDEAProjects\\FishModLoader\\libs&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;JAR Application.Unnamed (1).executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/Java/LoliModLoader/libs/launchwrapper-1.8.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.1515625&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.15668203&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.applicationServers&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "C++",
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;C++&quot;,
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
   </component>
@@ -538,19 +375,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="LoliModLoader" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="LoliModLoader" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Client (1.4.2)" />
       <item itemvalue="Application.Client" />
@@ -581,7 +405,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
       </set>
     </attachedChunks>
   </component>
@@ -674,6 +498,24 @@
       <workItem from="1723455115022" duration="206000" />
       <workItem from="1723455336539" duration="1357000" />
       <workItem from="1723456830339" duration="1407000" />
+      <workItem from="1723458255627" duration="499000" />
+      <workItem from="1723511049386" duration="187000" />
+      <workItem from="1723511277399" duration="209000" />
+      <workItem from="1723511490723" duration="8000" />
+      <workItem from="1723515178287" duration="887000" />
+      <workItem from="1723519553586" duration="54000" />
+      <workItem from="1723629865356" duration="430000" />
+      <workItem from="1723632289343" duration="39000" />
+      <workItem from="1723632608870" duration="613000" />
+      <workItem from="1723633925701" duration="16000" />
+      <workItem from="1723634146538" duration="196000" />
+      <workItem from="1723635290536" duration="64000" />
+      <workItem from="1723635650160" duration="124000" />
+      <workItem from="1723637476741" duration="237000" />
+      <workItem from="1723637836982" duration="212000" />
+      <workItem from="1723638237193" duration="341000" />
+      <workItem from="1723639491861" duration="503000" />
+      <workItem from="1723640110144" duration="1188000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1586023485118</created>
@@ -985,7 +827,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720357767017</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="change mapping to forge">
+      <option name="closed" value="true" />
+      <created>1723458299511</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1723458299511</updated>
+    </task>
+    <task id="LOCAL-00044" summary="update version and read fabric.mod.json">
+      <option name="closed" value="true" />
+      <created>1723458720408</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1723458720408</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1015,9 +873,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update ver" />
-    <MESSAGE value="NEW API FINALLY COMPLETED!!!!&#10;WITH MIXIN SUPPORTED!!!" />
-    <MESSAGE value="Update classloading and configs&#10;Add a event type&#10;Add some tools" />
     <MESSAGE value="Add mod duplication detect&#10;Make players can join in server &#10;Fix slaying's translation&#10;Fixed some connection problems" />
     <MESSAGE value="Fix bossbar entity crash" />
     <MESSAGE value="Log4j2 lookup vulnerability fix" />
@@ -1040,7 +895,10 @@
     <MESSAGE value="Update to 3.2.4" />
     <MESSAGE value="Update to 3.3.0" />
     <MESSAGE value="Update to 3.3.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update to 3.3.1" />
+    <MESSAGE value="change mapping to forge" />
+    <MESSAGE value="update version" />
+    <MESSAGE value="update version and read fabric.mod.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="update version and read fabric.mod.json" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
