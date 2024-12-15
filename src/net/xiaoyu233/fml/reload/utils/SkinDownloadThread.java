@@ -3,7 +3,7 @@ package net.xiaoyu233.fml.reload.utils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.ThreadDownloadImageData;
 import net.xiaoyu233.fml.relaunch.Launch;
-import net.xiaoyu233.fml.reload.mixins.fix.skin.ThreadDownloadImageDataAccessor;
+import net.xiaoyu233.fml.reload.mixin.fix.skin.ThreadDownloadImageDataAccessor;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;

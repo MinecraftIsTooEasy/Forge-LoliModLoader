@@ -8,6 +8,10 @@
     <asm skipDebug="false" skipFrames="false" skipCode="false" expandFrames="false" />
     <groovy codeStyle="LEGACY" />
   </component>
+  <component name="ASMSmaliIdeaPluginConfiguration">
+    <asm skipDebug="true" skipFrames="true" skipCode="false" expandFrames="false" />
+    <groovy codeStyle="LEGACY" />
+  </component>
   <component name="AnalysisProjectProfileManager">
     <option name="PROJECT_PROFILE" value="Project Default" />
     <option name="USE_PROJECT_LEVEL_SETTINGS" value="false" />
@@ -513,6 +517,27 @@
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/access-widener-2.1.0.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/mapping-io-0.5.0.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libs/launchwrapper-1.8.jar" path-in-jar="/" />
+      </root>
+    </artifact>
+    <artifact type="jar" name="FishModLoader:jar">
+      <output-path>$PROJECT_DIR$/out/artifacts/FishModLoader_jar</output-path>
+      <root id="archive" name="FishModLoader-v3.5.0.jar">
+        <element id="module-output" name="LoliModLoader" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/asm-9.6.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/asm-tree-9.6.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/asm-util-9.6.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/jsr305-3.0.2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/asm-commons-9.6.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/asm-analysis-9.6.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/log4j-api-2.23.1.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/mapping-io-0.5.0.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/launchwrapper-1.8.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/log4j-core-2.23.1.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/failureaccess-1.0.2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/access-widener-2.1.0.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/org.ow2.sat4j.pb-2.3.6.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/org.ow2.sat4j.core-2.3.6.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/libs/tiny-remapper-0.10.4+local.jar" path-in-jar="/" />
       </root>
     </artifact>
   </component>
