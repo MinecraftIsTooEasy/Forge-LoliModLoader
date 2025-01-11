@@ -48,7 +48,7 @@ public class Launch {
          CachedMappedJar cachedMappedJar = new CachedMappedJar(gameJarPath, tinyMappingProvider, new File(minecraftHome));
          remappedGameJarPath = cachedMappedJar.ensureJarMapped();
          knotInterface.addCodeSource(remappedGameJarPath);
-      }catch (Exception e){
+      } catch (Exception e) {
          throw new RuntimeException("Cannot remap minecraft jar", e);
       }
 

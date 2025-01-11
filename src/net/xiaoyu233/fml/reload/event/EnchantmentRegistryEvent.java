@@ -9,10 +9,10 @@ import java.util.List;
 public class EnchantmentRegistryEvent {
     private final List<Enchantment> enchantmentList = new ArrayList<>();
 
-    public void registerEnchantment(Enchantment enchantment){
+    public void registerEnchantment(Enchantment enchantment) {
         enchantmentList.add(enchantment);
     }
-    public void registerEnchantment(Enchantment... enchantment){
+    public void registerEnchantment(Enchantment... enchantment) {
         enchantmentList.addAll(Arrays.asList(enchantment));
     }
 

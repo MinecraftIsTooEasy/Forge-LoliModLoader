@@ -1,16 +1,29 @@
-/src/OpenAL64.dll
-/src/net/xiaoyu233/fml/util/MappingConvertor.java
-/src/net/xiaoyu233/fml/util/MappingGenerator.java
-/src/net/xiaoyu233/fml/util/MapConnector.java
-/mappings.srg
-/field_backup.mapping
-/method_backup.mapping
-/method.mapping.backup
-method_.mapping
-class_.mapping
-field_.mapping
-/logs
-/.shelf
-/.idea
-/out
-LoliModLoader.jar
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store

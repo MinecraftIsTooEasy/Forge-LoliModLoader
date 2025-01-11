@@ -6,10 +6,8 @@ import java.util.Optional;
 
 public interface RecipeModifier {
     ItemStack getOutput();
-
     Object[] toObjArgs();
     RecipeType getType();
     boolean isIncludeInLowestCraftingDifficultyDetermination();
-
     Optional<Float> getCraftingDifficulty();
 }

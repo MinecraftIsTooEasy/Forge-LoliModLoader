@@ -21,6 +21,10 @@ import java.util.function.Consumer;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
+/**
+ * for FishModLoader v1
+ */
+@Deprecated(forRemoval = true)
 public class ModsWalker {
     private final ClassLoader classLoader;
     private final File modDir;

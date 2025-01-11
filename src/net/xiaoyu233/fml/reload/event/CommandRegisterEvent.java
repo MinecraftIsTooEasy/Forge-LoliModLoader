@@ -11,7 +11,7 @@ public class CommandRegisterEvent {
         this.registerer = registerer;
     }
 
-    public void register(ICommand command){
+    public void register(ICommand command) {
         registerer.accept(command);
     }
 }

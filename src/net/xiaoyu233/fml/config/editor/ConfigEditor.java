@@ -116,10 +116,10 @@ public class ConfigEditor extends JFrame {
 
             @Override
             public Component getTreeCellEditorComponent(JTree tree, Object value, boolean isSelected, boolean expanded, boolean leaf, int row) {
-                if (!leaf){
+                if (!leaf) {
                     if (!expanded){
                         tree.expandPath(tree.getSelectionPath());
-                    }else {
+                    } else {
                         tree.collapsePath(tree.getSelectionPath());
                     }
                 }

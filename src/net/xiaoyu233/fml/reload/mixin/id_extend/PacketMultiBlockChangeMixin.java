@@ -34,8 +34,7 @@ public class PacketMultiBlockChangeMixin {
     public void injectHead(int chunk_x, int chunk_z, short[] local_coords, int num_blocks, World world, CallbackInfo callbackInfo) {
         Chunk chunk = world.getChunkFromChunkCoords(chunk_x, chunk_z);
         byte[] bytes = new byte[num_blocks * 6];
-        for (int i = 0; i < num_blocks; ++i)
-        {
+        for (int i = 0; i < num_blocks; ++i) {
             int offset = i * 6;
             int x = local_coords[i] >> 12 & 15;
             int y = local_coords[i] & 255;

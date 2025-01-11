@@ -38,7 +38,7 @@ public class CachedMappedJar {
 //        }
         this.remapper = builder.build();
         this.minecraftDir = minecraftDir;
-        this.cacheDir = minecraftDir.toPath().resolve(".fml").resolve("remappedJars");
+        this.cacheDir = minecraftDir.toPath().resolve(".fishmodloader").resolve("remappedJars");
 //        this.injections = injections;
         Files.createDirectories(cacheDir);
     }
@@ -87,7 +87,7 @@ public class CachedMappedJar {
 //            if (injectionsInvalid){
 //                LOGGER.info("Mapped jar cache invalid by interface injections, remapping with TinyRemapper on FML version " + Constants.VERSION + " with injection hash: " + injectionHash);
 //            }else {
-                LOGGER.info("Mapped jar cache not found, remapping with TinyRemapper on FML version " + Constants.VERSION);
+                LOGGER.info("Mapped jar cache not found, remapping with TinyRemapper on FishModLoader version " + Constants.VERSION);
 //            }
             try (OutputConsumerPath outputConsumer = new OutputConsumerPath.Builder(mappedJar).build()) {
                 outputConsumer.addNonClassFiles(this.jarSource, NonClassCopyMode.UNCHANGED, remapper);

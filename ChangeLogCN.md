@@ -10,6 +10,7 @@
 * 修改了自带@Mixin类的包名与类名
 * 支持读取fabric.mod.json
 * 支持classloader
+* 注册物品/方块允许单独定义Unlocalized Name和不定义Resource Location & Unlocalized Name
 
 ---
 

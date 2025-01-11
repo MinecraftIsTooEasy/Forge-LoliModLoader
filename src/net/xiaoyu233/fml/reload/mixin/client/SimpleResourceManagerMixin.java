@@ -18,8 +18,8 @@ import java.util.List;
 
 @Mixin(SimpleReloadableResourceManager.class)
 public class SimpleResourceManagerMixin {
-    @Redirect(method = "getAllResources", at = @At(value = "INVOKE", target = "Lnet/minecraft/ResourceManager;getAllResources(Lnet/minecraft/ResourceLocation;)Ljava/util/List;"))
-    private List enhanceGetAllResources(ResourceManager obj, ResourceLocation location){
+    @Redirect(method = "getAllResources", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/resources/ResourceManager;getAllResources(Lnet/minecraft/util/ResourceLocation;)Ljava/util/List;"))
+    private List enhanceGetAllResources(ResourceManager obj, ResourceLocation location) {
         List allResources = obj.getAllResources(location);
         for (ModContainerImpl value : FishModLoader.getModsMap().values()) {
             MetadataSerializer metadataSerializer = new MetadataSerializer();
@@ -28,13 +28,11 @@ public class SimpleResourceManagerMixin {
                 InputStream metaStream = null;
                 try {
                      metaStream = UrlUtil.asUrl(value.getPath("assets/" + location.getResourceDomain() + "/" + location.getResourcePath() + ".mcmeta")).openStream();
-                }catch (Exception ignored){}
-                if (resourceAsStream != null){
+                } catch (Exception ignored) {}
+                if (resourceAsStream != null) {
                     allResources.add(new SimpleResource(location, resourceAsStream, metaStream, metadataSerializer));
                 }
-            } catch (IOException ignored) {
-
-            }
+            } catch (IOException ignored) {}
         }
         return allResources;
     }

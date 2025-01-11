@@ -13,9 +13,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class ItemToolMixin {
     @Shadow private Material effective_material;
 
-    @Inject(method = "getMaterialHarvestEfficiency", cancellable = true, at = @At(value = "INVOKE", target = "Lnet/minecraft/Minecraft;setErrorMessage(Ljava/lang/String;)V", shift = At.Shift.BEFORE))
+    @Inject(method = "getMaterialHarvestEfficiency", cancellable = true, at = @At(value = "INVOKE", target = "Lnet/minecraft/client/Minecraft;setErrorMessage(Ljava/lang/String;)V", shift = At.Shift.BEFORE))
     private void injectToolCustomMaterialEffective(CallbackInfoReturnable<Float> callbackInfoReturnable){
-        if (this.effective_material instanceof CustomMaterial customMaterial){
+        if (this.effective_material instanceof CustomMaterial customMaterial) {
             callbackInfoReturnable.setReturnValue(customMaterial.getToolEffective());
         }
     }

@@ -33,7 +33,7 @@ public class JarMain {
         System.setProperty("java.class.path", path);
         @SuppressWarnings("resource") LaunchClassLoader modClassLoader = new LaunchClassLoader(new URL[]{fmlPath.toUri().toURL(), minecraftJar.toUri().toURL()});
         System.setProperty("minecraft.path", minecraftJar.toAbsolutePath().normalize().toString());
-        modClassLoader.loadClass("net.xiaoyu233.fml.relaunch.server.Main").getMethod("main",String[].class).invoke(null, (Object) args);
+        modClassLoader.loadClass("net.xiaoyu233.fml.relaunch.server.Main").getMethod("main", String[].class).invoke(null, (Object) args);
     }
 
     @Nonnull

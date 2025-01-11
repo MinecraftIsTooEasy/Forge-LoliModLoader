@@ -15,15 +15,15 @@ public class EntityRegisterEvent {
         this.registerer.register(entityClass, namespace, name, id);
     }
 
-    public void register(Class<? extends Entity> entityClass, String namespace, String name, int id, int eggColorA, int eggColorB){
+    public void register(Class<? extends Entity> entityClass, String namespace, String name, int id, int eggColorA, int eggColorB) {
         this.registererWithEgg.registerWithEgg(entityClass, namespace, name, id, eggColorA, eggColorB);
     }
 
-    public interface EntityRegisterer{
+    public interface EntityRegisterer {
         void register(Class<? extends Entity> entityClass,String namespace, String name, int id);
     }
 
-    public interface EntityRegistererWithEgg{
+    public interface EntityRegistererWithEgg {
         void registerWithEgg(Class<? extends Entity> entityClass, String namespace, String name, int id, int eggColorA, int eggColorB);
     }
 }

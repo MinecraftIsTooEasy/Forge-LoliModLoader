@@ -25,7 +25,7 @@ public abstract class Config {
 
     public abstract JsonElement write();
 
-    public static class ReadResult{
+    public static class ReadResult {
         public static final ReadResult NO_CHANGE = new ReadResult(false,null);
         @Nullable
         private final JsonElement changed;
